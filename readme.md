@@ -34,8 +34,16 @@
         lambda_l1: [0, 1, 1.5]
         lambda_l2: [0, 1].
         
-  ## How to run app using docker and which port it uses
+  ## How to run app using docker 
 
+    In order to run docker you should run 
+
+    docker build -t st110923/gsom_predictor:v.0.4 .
+
+    docker run --network host -it test/gsom_predictor:v.0.4 /bin/bash 
+
+ ## How to run app via browser and which port it uses
+ 
     In order to access app an user should adress in browser the ip 51.250.20.134 with the port 5444
     and set the values of the parameters of the query:
     
