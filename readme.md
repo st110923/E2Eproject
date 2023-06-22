@@ -44,7 +44,7 @@
 
  ## How to run app via browser and which port it uses
  
-    In order to access app an user should adress in browser the ip 51.250.20.134 with the port 5444
+    In order to access app an user should adress in browser the ip 158.160.73.47 with the port 5444
     and set the values of the parameters of the query:
     
     open_plan
